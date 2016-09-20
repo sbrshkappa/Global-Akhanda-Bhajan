@@ -114,23 +114,43 @@
         </div>
         <div class="mbr-cards-col col-xs-12 col-lg-6" style="padding-top: 80px; padding-bottom: 80px;">
             <div class="container">
-                <div class="card cart-block">
-                    <div class="card-img iconbox"><a href="Service.html" class="etl-icon icon-edit mbr-iconfont mbr-iconfont-features7" style="color: rgb(255, 255, 255);"></a></div>
-                    <div class="card-block">
-                        <h4 class="card-title">Volunteer</h4>
-                        
-                        <p class="card-text">What would you like to volunteer for ?</p>
-                        
+                    <div class="card cart-block">
+                        <div class="card-img iconbox">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#volunteerModal"> 
+                                <a class="etl-icon icon-edit mbr-iconfont mbr-iconfont-features7" style="color: rgb(255, 255, 255);"></a>
+                            </button>
+                        </div>
+                        <div class="card-block">
+                            <h4 class="card-title">Volunteer</h4>
+                            <p class="card-text">What would you like to volunteer for?</p>   
+                        </div>
                     </div>
-                </div>
           </div>
-        </div>
-        
-        
-        
-        
+        </div>    
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="volunteerModal" tabindex="-1" role="dialog" aria-labelledby="volunteerModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="volunteerModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <!--iframe src="Signup.html" style="width:100%;height:600px;" frameborder="0"></iframe-->
+        <iframe src="http://region7saicenters.org/csj/sai90/gab_volunteer_signup.html" style="width:100%;height:600px;" frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <section class="mbr-footer mbr-section mbr-section-md-padding" id="contacts3-0" style="background-color: rgb(46, 46, 46); padding-top: 90px; padding-bottom: 90px;">
 

@@ -12,7 +12,7 @@
         var daysToDates = {};
         var availableSignups = [];
         var areaToSignups = {};
-        $.get("assets/php/gab_volunteer_signup.php", function (signups) {
+        $.get("server/gab_volunteer_signup.php", function (signups) {
             signups = signups || [];
             jQuery.map(signups, function (signup, index) {
                 if (signup && !signup.email && signup.area) {
